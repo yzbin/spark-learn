@@ -1,6 +1,7 @@
+package com.robin.spark
+
 import org.apache.spark._
 import org.apache.spark.streaming._
-import org.apache.spark.streaming.StreamingContext._
 object Demo1 {
   def main(args: Array[String]): Unit = {
     val conf=new SparkConf().setAppName("name").setMaster("local[2]")
