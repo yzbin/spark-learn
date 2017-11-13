@@ -28,4 +28,19 @@ public class ConfigurationManager {
         return prop.getProperty(key);
     }
 
+
+    /**
+     * 提供返回Int值的方法
+     * @param key
+     * @return
+     */
+    public static int getInteger(String key){
+        try {
+            return Integer.valueOf(key);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return 0;
+    }
+
 }
