@@ -4,7 +4,7 @@ import org.apache.spark._
 import org.apache.spark.streaming._
 object Demo1 {
   def main(args: Array[String]): Unit = {
-    val conf=new SparkConf().setAppName("Demo1")
+    val conf=new SparkConf().setAppName("name").setMaster("local[2]")
     val ssc=new StreamingContext(conf,Seconds(5))
 
     //监听端口，捕捉信息
@@ -23,4 +23,5 @@ object Demo1 {
     ssc.awaitTermination()
     ssc.stop()
   }
+
 }

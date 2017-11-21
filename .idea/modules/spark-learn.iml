@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="spark-sql" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="spark-learn" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../target/scala-2.10/classes" />
     <output-test url="file://$MODULE_DIR$/../../target/scala-2.10/test-classes" />
@@ -22,6 +22,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: aopalliance:aopalliance:1.0:jar" level="project" />
+<<<<<<< Updated upstream:.idea/modules/spark-sql.iml
     <orderEntry type="library" name="SBT: org.spark-project.hive:hive-metastore:1.2.1.spark:jar" level="project" />
     <orderEntry type="library" name="SBT: org.spark-project.hive:hive-exec:1.2.1.spark:jar" level="project" />
     <orderEntry type="library" name="SBT: org.spark-project.hive:hive-cli:1.2.1.spark:jar" level="project" />
@@ -60,6 +61,8 @@
     <orderEntry type="library" name="SBT: com.jolbox:bonecp:0.8.0.RELEASE:jar" level="project" />
     <orderEntry type="library" name="SBT: com.googlecode.javaewah:JavaEWAH:0.3.2:jar" level="project" />
     <orderEntry type="library" name="SBT: antlr:antlr:2.7.7:jar" level="project" />
+=======
+>>>>>>> Stashed changes:.idea/modules/spark-learn.iml
     <orderEntry type="module-library">
       <library name="SBT: unmanaged-sources-and-docs">
         <CLASSES />
@@ -83,6 +86,10 @@
     <orderEntry type="library" name="SBT: org.tachyonproject:tachyon-client:0.8.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.spark-project.spark:unused:1.0.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.sonatype.sisu.inject:cglib:2.2.1-v20090111:jar" level="project" />
+<<<<<<< Updated upstream:.idea/modules/spark-sql.iml
+=======
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-log4j12:1.7.10:jar" level="project" />
+>>>>>>> Stashed changes:.idea/modules/spark-learn.iml
     <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.21:jar" level="project" />
     <orderEntry type="library" name="SBT: org.slf4j:jul-to-slf4j:1.7.10:jar" level="project" />
     <orderEntry type="library" name="SBT: org.slf4j:jcl-over-slf4j:1.7.10:jar" level="project" />
@@ -157,7 +164,13 @@
     <orderEntry type="library" name="SBT: net.razorvine:pyrolite:4.9:jar" level="project" />
     <orderEntry type="library" name="SBT: net.jpountz.lz4:lz4:1.3.0:jar" level="project" />
     <orderEntry type="library" name="SBT: net.java.dev.jets3t:jets3t:0.7.1:jar" level="project" />
+<<<<<<< Updated upstream:.idea/modules/spark-sql.iml
     <orderEntry type="library" name="SBT: log4j:log4j:1.2.17:jar" level="project" />
+=======
+    <orderEntry type="library" name="SBT: mysql:mysql-connector-java:5.1.44:jar" level="project" />
+    <orderEntry type="library" name="SBT: log4j:log4j:1.2.17:jar" level="project" />
+    <orderEntry type="library" name="SBT: jline:jline:0.9.94:jar" level="project" />
+>>>>>>> Stashed changes:.idea/modules/spark-learn.iml
     <orderEntry type="library" name="SBT: javax.xml.bind:jaxb-api:2.2.2:jar" level="project" />
     <orderEntry type="library" name="SBT: javax.mail:mail:1.4.7:jar" level="project" />
     <orderEntry type="library" name="SBT: javax.inject:javax.inject:1:jar" level="project" />
@@ -169,11 +182,19 @@
     <orderEntry type="library" name="SBT: io.dropwizard.metrics:metrics-graphite:3.1.2:jar" level="project" />
     <orderEntry type="library" name="SBT: io.dropwizard.metrics:metrics-core:3.1.2:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-net:commons-net:2.2:jar" level="project" />
+<<<<<<< Updated upstream:.idea/modules/spark-sql.iml
+=======
+    <orderEntry type="library" name="SBT: commons-lang:commons-lang:2.5:jar" level="project" />
+>>>>>>> Stashed changes:.idea/modules/spark-learn.iml
     <orderEntry type="library" name="SBT: commons-io:commons-io:2.4:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-httpclient:commons-httpclient:3.1:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-digester:commons-digester:1.8:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-configuration:commons-configuration:1.6:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-collections:commons-collections:3.2.1:jar" level="project" />
+<<<<<<< Updated upstream:.idea/modules/spark-sql.iml
+=======
+    <orderEntry type="library" name="SBT: commons-codec:commons-codec:1.5:jar" level="project" />
+>>>>>>> Stashed changes:.idea/modules/spark-learn.iml
     <orderEntry type="library" name="SBT: commons-cli:commons-cli:1.2:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-beanutils:commons-beanutils-core:1.8.0:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-beanutils:commons-beanutils:1.7.0:jar" level="project" />
@@ -207,7 +228,10 @@
     <orderEntry type="library" name="SBT: com.clearspring.analytics:stream:2.7.0:jar" level="project" />
     <orderEntry type="library" name="SBT: com.101tec:zkclient:0.3:jar" level="project" />
     <orderEntry type="library" name="SBT: asm:asm:3.1:jar" level="project" />
+<<<<<<< Updated upstream:.idea/modules/spark-sql.iml
     <orderEntry type="library" name="SBT: org.slf4j:slf4j-log4j12:1.7.10:jar" level="project" />
     <orderEntry type="library" name="SBT: mysql:mysql-connector-java:5.1.44:jar" level="project" />
+=======
+>>>>>>> Stashed changes:.idea/modules/spark-learn.iml
   </component>
 </module>

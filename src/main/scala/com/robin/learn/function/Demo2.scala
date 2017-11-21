@@ -1,4 +1,4 @@
-package com.robin.learn
+package com.robin.learn.function
 
 /**
   * 函数是第一等公民
@@ -45,8 +45,23 @@ object Demo2 {
 //    def greeting()=(name:String) => {s"Hello $name"}
 //    println(greeting()("world"))
 
-    def greeting(age:Int)=(name:String)=>{s"Hello $name,your age is $age"}
-    print(greeting(23)("Flygar"))
+//    def greeting(age:Int)=(name:String)=>{s"Hello $name,your age is $age"}
+//    print(greeting(23)("Flygar"))
+
+    //((Int)=>String)=>String
+    def convertIntToString(f:(Int)=>String)=f(4)
+
+   //函数定义
+    def func(x:Int):String=x+"s"
+    //内部调用匿名函数
+    println(convertIntToString((x:Int)=>x+"s"))
+
+    println(convertIntToString(func))
+
+    //高阶函数可以产生新的函数，即函数的返回值是一个函数
+    def mulitplyBy(factor:Double)=(x:Double)=>factor*x
+    println(mulitplyBy(10))
+    println(mulitplyBy(10)(50))
 
   }
 }

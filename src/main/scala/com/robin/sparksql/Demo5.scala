@@ -23,5 +23,8 @@ object Demo5 {
       readConnProperties4)
     jdbcDF4.registerTempTable("tmp_my_user")
     hivecontext.sql("select * from tmp_my_user");
+
+
+
   }
 }

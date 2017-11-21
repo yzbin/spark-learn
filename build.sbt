@@ -16,5 +16,7 @@ libraryDependencies ++= Seq(
   "org.apache.spark" % "spark-streaming-kafka_2.10" % "1.6.3",
   "org.apache.commons" % "commons-email" % "1.4",
   "javax.mail" % "mail" % "1.4.7",
-  "mysql" % "mysql-connector-java" % "5.1.44"
+  "mysql" % "mysql-connector-java" % "5.1.44",
+  "javax"%"javaee-api"%"7.0",
+  "com.alibaba" % "fastjson" % "1.2.12"
 )

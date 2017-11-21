@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-sql.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-sql.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-sql-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-sql-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idea-spark-learn.iml" filepath="$PROJECT_DIR$/.idea/modules/idea-spark-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-learn.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-learn-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-learn-build.iml" />
     </modules>
   </component>
 </project>
